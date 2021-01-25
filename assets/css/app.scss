@@ -1,0 +1,283 @@
+/* This file is for your main application css. */
+@import "./phoenix.css";
+
+$text:  #58C08B;
+$extreme-gray: #383645;
+
+/* Alerts and form errors */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: none;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert p {
+  margin-bottom: 0;
+}
+.alert:empty {
+  display: none;
+}
+.invalid-feedback {
+  color: #a94442;
+  display: block;
+  margin: -1rem 0 2rem;
+}
+
+
+.headerHome{
+  margin-top: 150px;
+  max-width: 90.0rem;
+  width: 100%;
+}
+
+#teste{
+  border: solid green;
+  max-width: 90.0rem;
+  width: 100%;
+}
+
+.commondiv {
+  color: white;
+  margin: 15px;
+  max-width: 90.0rem;
+  width: 100%;
+  height: max-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: flex-start;
+  justify-items: flex-end;
+}
+
+.description {
+  & h1{
+  font-size: 1.5em;
+    text-align: left;
+    width: 60%;
+  }
+  & p {
+    font-size: 0.9em;
+    text-align: justify;
+    width: 60%;
+  }
+  
+}
+
+.texts {
+  width: 100%;
+}
+
+.vector {
+  display: block;
+  width: 50%;
+}
+
+.buttontexts {
+  background: $text;
+  border-radius: 45px;
+  border: none;
+}
+
+#cardButtons {
+  max-width: 90.0rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+
+#cardButton {
+  background: $extreme-gray;
+  color: $text;
+  width: 230px;
+  height: 270px;
+  padding: 50px 20px;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 29px;
+  transition: all .2s ease-in-out;
+
+  & h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: $text;
+    margin-top: 30px;
+  }
+  & .line {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    height: 3px;
+    background: linear-gradient(to right, $text, rgba(255, 255, 255,0.1) 60% );
+    width: 30%;
+  }
+  & p{
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .Icon {
+        width: 30px;
+        height: 30px;
+        font-size: 2.9rem;
+  }
+}
+
+#cardButtons :hover {
+    transform: scale(1.02);
+}
+
+#bgdiv {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 40px;
+  background-size: contain;
+  background:linear-gradient(to bottom, #413F4F 30%, #333140 50%);
+  & img {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+  }
+}
+
+#secondpart {
+  background: linear-gradient(to bottom, #413f4f00 40%, #333140 60%);
+  width: 100%;
+  margin-top: 400px;
+  padding: 150px 50px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+
+#portifolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+
+  & h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 48px;
+    color: #58C08B;
+    text-align: center;
+    z-index: 9999;
+  }
+
+}
+
+#continuation {
+  background: #333140;
+  width: 100%;
+  padding: 0px 90.0rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  justify-content:center;
+  padding-bottom: 50px;
+}
+
+#job {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}
+
+#specializ {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #333140;
+  
+  
+  & h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 48px;
+    color: #58C08B;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  & #cardsSpecializ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 90.0rem;
+    width: 100%;    
+  }
+}
+#cardSpecializ {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  background: #383645;
+  box-shadow: 0px 3px 60px rgba(0, 0, 0, 0.16);
+  border-radius: 7px;
+  & p {
+    margin-top: 25px;
+    font-weight: 400;
+    text-align: justify;
+    white-space: pre-wrap;
+  }
+}
+
+#firstpartCardSpecializ {
+  display: flex; 
+  width: 100%; 
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  & h4 {
+    font-size: 1.5rem;
+    text-align: left;
+    height: 20px;
+    margin-left: 27px;
+    font-weight: bold;
+    font-style: normal;
+    color: #58C08B;
+  }
+  & img {
+    width: 30%;
+    margin-left: -30px;
+    margin-top: -80px;
+  }
+}

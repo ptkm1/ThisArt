@@ -1,0 +1,78 @@
+<header class="headerHome">
+  <img src="<%= Routes.static_url(@conn, "/images/logo.svg") %>" alt="ThisartLogo">
+</header>
+
+<div class="commondiv description">
+  <div class="texts">
+    <h1>Criatividade com simplicidade corporativa.</h1>
+    <p>Conecta sua empresa à internet com elegancia e sem complicações.</p>
+    <button class="buttontexts">Nossa cultura</button>
+  </div>
+  <div class="vector">
+    <img src="<%= Routes.static_url(@conn, "/images/Smat.svg") %>" alt="ThisartLogo">
+  </div>
+</div>
+
+<div id="cardButtons">
+    <a href="#" id="cardButton">
+      <i class="Icon material-icons">fingerprint</i>
+      <h1>Identidade</h1>
+      <div class="line"></div>
+      <p>Sua empresa com identidade e original!</p>
+    </a>
+    <a href="#" id="cardButton">
+        <i class="Icon material-icons">public</i>
+        <h1>Mundial</h1>
+        <div class="line"></div>
+
+        <p>Sua empresa à nível mundial!</p>
+    </a>
+    <a href="#" id="cardButton">
+      <i class="Icon material-icons">sports_motorsports</i>
+      <h1>Um Foguete!</h1>
+      <div class="line"></div>
+      <p>Suba no mercado como um foguete!</p>
+    </a>
+</div>
+
+<div id="bgdiv">
+  <img src="<%= Routes.static_url(@conn, "/images/smallbg.svg")%>" />
+  <div id="secondpart">
+    <div id="portifolio">
+      <h1>Portifólio</h1>
+    </div>
+  </div>
+</div>
+<div id="continuation">
+  <div id="job"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1b88db101657983.5f23a49200640.png" alt=""> </div>
+  <div id="job"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c44bf186118431.5d9048fa96715.png" alt=""> </div>
+  <div id="job"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/459ed185753261.5d84f6950bcd8.png" alt=""> </div>
+  <div id="job"> <img src="<%= Routes.static_url(@conn, "/images/CodeComunity.png")%>" alt=""> </div>
+  <div id="job"> <img src="<%= Routes.static_url(@conn, "/images/cot.png")%>" alt=""> </div>
+  <div id="job"> <img src="<%= Routes.static_url(@conn, "/images/Transbrl.png")%>" alt=""> </div>
+</div>
+
+
+<div id="specializ">
+  <h1>Especialização</h1>
+  <div id="cardsSpecializ">
+
+    <div id="cardSpecializ">
+      <div id="firstpartCardSpecializ">
+        <img src="<%= Routes.static_url(@conn, "/images/dualcard/devices.svg")%>" alt="testeimg">
+        <h4>Desenvolvimento de websites,
+          App nativos, hibridos e PWAS</h4>
+      </div>
+      <p>Utilizando as melhores tecnologias, para acoplar perfeitamente à sua empresa e suas necessidades.</p>
+    </div>
+
+    <div id="cardSpecializ">
+      <div id="firstpartCardSpecializ">
+        <img src="<%= Routes.static_url(@conn, "/images/dualcard/people.svg")%>" alt="testeimg">
+        <h4>Design de Logo, social media, flyers,
+          cartão de visitas e UI & UX design</h4>
+      </div>
+      <p>Criamos sua identidade, e ajudamos a mostrar para todos</p>
+    </div>
+  </div>
+</div>
