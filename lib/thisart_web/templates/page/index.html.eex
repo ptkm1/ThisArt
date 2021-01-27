@@ -28,7 +28,7 @@
         <p>Sua empresa à nível mundial!</p>
     </a>
     <a href="#" id="cardButton">
-      <i class="Icon material-icons">sports_motorsports</i>
+      <i class="fas fa-rocket" style="font-size: 25px;" ></i>
       <h1>Um Foguete!</h1>
       <div class="line"></div>
       <p>Suba no mercado como um foguete!</p>
@@ -75,4 +75,59 @@
       <p>Criamos sua identidade, e ajudamos a mostrar para todos</p>
     </div>
   </div>
+</div>
+
+<div id="plans">
+  <h1>Planos</h1>
+    <div id="cardsPlans">
+
+      <div id="cardPlans">
+        <div style="display: flex; justify-content:center;" >
+          <i class="fab fa-facebook-f" style="font-size: 25px;" ></i>
+          <i class="fab fa-instagram" style="font-size: 25px;" ></i>
+          <i class="fab fa-linkedin" style="font-size: 25px;" ></i>
+          <i class="fab fa-twitter" style="font-size: 25px;" ></i>
+        </div>
+        <h1>Plano Mensal</h1>
+        <p>Administração de redes sociais, criando campanhas de marketing, e desenvolvimento de artes</p>
+        <span>R$ 90,00/Mês*</span>
+        <button id="cardPlansButton" >Mais detalhes</button>
+      </div>
+  
+      <div id="cardPlans">
+        <i class="Icon material-icons">local_fire_department</i>
+        <h1>Plano Impulsionar</h1>
+        <p>Criação de identidade visual e cases dos produtos, impulso com tráfegos na internet.</p>
+        <span>R$ 50,00/Mês*</span>
+        <button id="cardPlansButton" >Mais detalhes</button>
+      </div>
+  
+    </div>
+
+  
+</div>
+
+<div id="footer">
+  <div id="shortLinks">
+    <span>Links Rápidos</span>
+    <a href="#">Início</a>
+    <a href="#">Especialização</a>
+    <a href="#">Planos</a>
+    <a href="#">Suporte</a>
+  </div>
+
+  <div id="socialMedias">
+    <span>Redes Sociais</span>
+    <a href="https://facebook.com"><i class="fab fa-facebook-f" style="font-size: 25px;" ><span style="font-size: 15px" >Facebook</span></i></a>
+    <a href="https://instagram.com"><i class="fab fa-instagram" style="font-size: 25px;" ><span style="font-size: 15px" >Instagram</span></i></a>
+    <a href="https://linkedin.com"><i class="fab fa-linkedin" style="font-size: 25px;" ><span style="font-size: 15px" >Linkedin</span></i></a>
+   <a href="https://twitter.com"><i class="fab fa-twitter" style="font-size: 25px;" ><span style="font-size: 15px" >Twitter</span></i></a> 
+  </div>
+  <div id="lastPartFooter">
+    <span>2020, ThisIsArt</span>
+    <span>Todos os Direitos Reservados! </span>
+    <span>Desenvolvido com <3 por  <a href="https://codecomunity.tech">CodeComunity</a></span>
+  </div>
+
+
 </div>

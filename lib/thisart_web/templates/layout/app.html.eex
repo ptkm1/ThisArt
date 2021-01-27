@@ -9,6 +9,7 @@
     <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <script src="https://kit.fontawesome.com/3116ec392f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <main role="main" class="container">
